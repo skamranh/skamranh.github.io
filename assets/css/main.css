@@ -2811,11 +2811,6 @@ input, select, textarea {
 							color: #4acaa8 !important;
 						}
 
-						#header > nav ul li a.resume-solid {
-							color: #fff;
-							background: #8ba82d !important;
-						}
-
 					#header > nav ul li:first-child {
 						border-top: 0;
 					}
@@ -3321,6 +3316,7 @@ input, select, textarea {
 	}
 
 /* Contact */
+/* This CSS is Copied from `Dopetrope by HTML5 UP html5up.net | @ajlkn`*/
 
 ul.contact {
 	list-style: none;

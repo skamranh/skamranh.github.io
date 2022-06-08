@@ -2811,6 +2811,11 @@ input, select, textarea {
 							color: #4acaa8 !important;
 						}
 
+						#header > nav ul li a.resume-solid {
+							color: #fff;
+							background: #8ba82d !important;
+						}
+
 					#header > nav ul li:first-child {
 						border-top: 0;
 					}
@@ -3314,3 +3319,36 @@ input, select, textarea {
 			}
 
 	}
+
+/* Contact */
+
+ul.contact {
+	list-style: none;
+	padding-left: 0;
+}
+
+	ul.contact li {
+		position: relative;
+		border-top: solid 1px #ddd;
+		padding: 1.3em 0 1.3em 7em;
+	}
+
+		ul.contact li h3 {
+			position: absolute;
+			left: 0;
+			top: 1.3em;
+			font-size: 1.1em;
+		}
+
+		ul.contact li p {
+			margin: 0;
+		}
+
+		ul.contact li:first-child {
+			padding-top: 0;
+			border-top: 0;
+		}
+
+			ul.contact li:first-child h3 {
+				top: 0;
+			}
